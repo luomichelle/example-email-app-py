@@ -22,7 +22,7 @@ Provision a new Heroku server:
 heroku apps:create example-email-app-py # use your own unique name instead of `example-email-app-py`, or omit the name and heroku will choose a fun one for you
 ```
 
-Provision the Heroku server to use the "SendGrid" email service:
+Provision the Heroku server to use the free "SendGrid" email service:
 
 ```shell
 heroku addons:create sendgrid:starter -a example-email-app-py # specify app name only if you control multiple applications
