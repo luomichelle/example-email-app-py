@@ -1,3 +1,8 @@
+# Example Email App - Python
+
+## Prerequisites
+
+Follow the [Setup Guide](SETUP.md) to obtain and configure credentials for using the SendGrid service to send email. And for configuring a machine to run this application.
 
 ## Installation
 
@@ -16,10 +21,6 @@ Install package dependencies:
 pip3 install -r requirements.txt
 ```
 
-## Setup
-
-Follow the [Deployer's Guide](DEPLOY.md) to provision a new Heroku server, configure the SendGrid email service, and configure the `SENDGRID_API_KEY` and `MY_EMAIL_ADDRESS` environment variables on both the server and your local machine.
-
 ## Usage
 
 Send me an email:
@@ -27,3 +28,7 @@ Send me an email:
 ```shell
 python3 app/email_me.py
 ```
+
+## Deploying
+
+Optionally follow the [Deployer's Guide](DEPLOYING.md) to run the application on a Heroku server previously created during the setup process.
