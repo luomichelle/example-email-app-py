@@ -53,6 +53,8 @@ Because the application needs an email address to send mail to and from, also sp
 heroku config:set MY_EMAIL_ADDRESS="your_address@gmail.com" -a example-email-app-py # specify app name only if you control multiple applications
 ```
 
+At this time, you should be able to run the app from your local machine and it should use the SendGrid service to send you an email! Note: it may take a few minutes.
+
 ## Deploying
 
 TBA
