@@ -41,11 +41,3 @@ Finally, find your application in the [Heroku Dashboard](https://dashboard.herok
 ![a screenshot of scheduling the script to run at ten minute intervals](scheduling.png)
 
 Now wait to see if the server sends email at the specified intervals.
-
-## Monitoring
-
-Monitor the server's processes:
-
-```shell
-heroku ps
-```
