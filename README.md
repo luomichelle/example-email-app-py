@@ -23,7 +23,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-Send me an email:
+Send yourself an email:
 
 ```shell
 python3 app/email_me.py

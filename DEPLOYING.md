@@ -1,6 +1,6 @@
 # Deployer's Guide
 
-Follow the [Contributor's Guide](CONTRIBUTING.md) to provision a new Heroku server or gain access to an existing one.
+If you have not yet already dones so, please follow the [Contributor's Guide](CONTRIBUTING.md) to provision a new Heroku server.
 
 ## Deploying
 
